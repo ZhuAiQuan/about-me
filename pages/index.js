@@ -27,7 +27,7 @@ export default function Home({ background, info }) {
               </div>
               <div className={styles.subTitle}>
                 现就职于
-                <a href={info.link} target="_blank">
+                <a href={info.link} target="_blank" rel="noopener noreferrer">
                   {info.com}
                 </a>
               </div>
@@ -53,6 +53,7 @@ export default function Home({ background, info }) {
                         href={item.link}
                         target="_blank"
                         title={item.key}
+                        rel="noopener noreferrer"
                       >
                         <svg className="icon tab" aria-hidden="true">
                           <use xlinkHref={`#icon-${item.key}`}></use>
