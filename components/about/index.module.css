@@ -43,3 +43,10 @@
 .card .content {
   padding: 10px;
 }
+.content .item {
+  display: block;
+  padding: 8px 6px;
+}
+.intro {
+  padding: 16px;
+}
