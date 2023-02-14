@@ -24,7 +24,6 @@ export default function Card({ title, list }) {
               title={item.description}
               className={styles.item}
               target="_blank"
-              rel="noopener"
               onClick={(e) => onPush(item.link, e)}
             >
               {item.title}
