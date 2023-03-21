@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default function handler(req, res) {
   const info = {
     name: "朱艾全",
     job: "前端开发",
