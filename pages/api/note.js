@@ -69,7 +69,7 @@ const react_basic = [
   {
     title: "react性能优化做过哪些",
     content:
-      "在react中父组件数据变化了，子组件也会一起render更新，但如果子组件不需要更新而更新了会造成不必要的性能浪费。在react中通过useMemo,pureComponent,shoudleCompoentUpdate来控制子组件是否需要更新。使用useCallback缓存传给子组件的方法。此外页面资源比如图片压缩减小加载时的资源大小让其更快加载出来，多个icon图标放到一张图片里加载以减少资源请求次数。图片封装懒加载功能，使用自身的load方法来控制是否立即加载或者延迟加载，或者使用window的intersectionObserver来监听视图是否到达可视区域来加载图片。打包构建优化，分包加载路由懒加载，gzip代码压缩，cdn加载,tree-sharking组件按需加载等",
+      "在react中父组件数据变化了，子组件也会一起render更新，但如果子组件不需要更新而更新了会造成不必要的性能浪费。在react中通过Memo,pureComponent,shoudleCompoentUpdate来控制子组件是否需要更新。使用useCallback缓存传给子组件的方法。此外页面资源比如图片压缩减小加载时的资源大小让其更快加载出来，多个icon图标放到一张图片里加载以减少资源请求次数。图片封装懒加载功能，使用自身的load方法来控制是否立即加载或者延迟加载，或者使用window的intersectionObserver来监听视图是否到达可视区域来加载图片。打包构建优化，分包加载路由懒加载，gzip代码压缩，cdn加载,tree-sharking组件按需加载等",
   },
   {
     title: "代码分包怎么实现",
