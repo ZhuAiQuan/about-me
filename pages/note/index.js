@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from './index.module.css'
 
-export default function index() {
+export default function Index() {
   const intro = {
     js_basic: "javascript基础面试题",
     react_basic: "react基础面试题",
