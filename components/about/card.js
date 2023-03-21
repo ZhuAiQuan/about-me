@@ -19,6 +19,7 @@ export default function Card({ title, list }) {
         {list.map((item) => {
           return (
             <a
+              rel="noreferrer"
               key={item.title}
               href={item.link}
               title={item.description}
