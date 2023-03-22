@@ -50,3 +50,19 @@
 .intro {
   padding: 16px;
 }
+.pic-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.pic_list_avatar {
+  border-radius: 16px;
+  overflow: hidden;
+}
+.pic_list_name {
+  font-size: 12px;
+  text-align: center;
+}
+.pic_list:hover {
+  cursor: pointer;
+}

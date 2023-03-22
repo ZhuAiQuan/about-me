@@ -102,6 +102,23 @@ export default function Home({ background }) {
         link: "https://hkvideo.vercel.app",
       },
     ],
+    link: [
+      {
+        avatar: "/assets/cs.jpg",
+        name: "好巧.",
+        link: "https://blog.csdn.net/weixin_43233914"
+      },
+      {
+        avatar: "/assets/ls.jpg",
+        name: "Blau",
+        link: "https://blog.csdn.net/weixin_43930641"
+      },
+      {
+        avatar: "/assets/lz.jpg",
+        name: "麦客子",
+        link: "https://blog.csdn.net/a911711054"
+      }
+    ]
   };
   return (
     <div className={styles.container}>

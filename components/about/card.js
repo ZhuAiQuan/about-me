@@ -6,6 +6,7 @@ export default function Card({ title, list }) {
   const { push } = useRouter();
   function onPush(link, event) {
     event.preventDefault();
+    if (!link) return
     // console.log(link)
     const temp = JSON.stringify(link);
     push(`/target/to?link=${temp}`)
