@@ -36,7 +36,7 @@ export async function getServerSideProps() {
     title: "",
   };
   const { images } = await fetch(
-    "https://bird.retiehe.com/cache/bing.json"
+    "https://bird.limestart.cn/cache/bing.json"
   ).then((res) => res.json());
   if (images.length) {
     const { url, copyright, title } = images[0];

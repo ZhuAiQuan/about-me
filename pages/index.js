@@ -193,7 +193,7 @@ export default function Home({ background }) {
 
 export async function getServerSideProps() {
   const { images } = await fetch(
-    "https://bird.retiehe.com/cache/bing.json"
+    "https://bird.limestart.cn/cache/bing.json"
   ).then((res) => res.json());
   const background = {
     url: "",
